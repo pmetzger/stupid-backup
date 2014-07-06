@@ -1,4 +1,4 @@
-# A Stupid Backup System
+# The World's Stupidest Backup System
 
 ## What is this?
 
@@ -13,10 +13,12 @@ install. What to do?
 Stupid Backup is your solution!
 
 It's a very simple shell script that's trivial to understand and
-modify. It more or less just reads a list of host names on the command
-line, ssh's to each box in turn, tars up things you feel need backing
-up, and saves those tar files on the local machine in a directory for
-each remote host.
+modify. This README is substantially longer than the actual script!
+
+The script simply reads a list of host names on the command line,
+ssh's to each box in turn, tars up things you feel need backing up,
+and saves those tar files on the local machine in a directory for each
+remote host.
 
 It keeps a few days (five by default) of the tar files on hand, and is
 smart enough not to remove any old backups if the host is unreachable.
