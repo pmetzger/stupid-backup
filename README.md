@@ -35,7 +35,9 @@ local account's public key on a line in the remote machine's root
 account's `.ssh/authorized_keys` file.
 
 (You can check that this was done correctly by then doing
+
     ssh root@remotehost echo hi
+
 If that works without asking for a password, you're good to go.)
 
 Second, there are also two lines near the top of the `stupid-backup`
